@@ -106,6 +106,10 @@ Adicionado:
 * limpeza de arquivos desnecessários
 
 ---
+# 🏗️ Estrutura do Projeto
+
+![Estrutura](log-analyzer-melhorado/images/estrutura.png)
+
 
 # 🖥️ Dashboard
 
@@ -256,6 +260,26 @@ Este projeto demonstra conhecimentos em:
 
 ---
 
-# 👩‍💻 Desenvolvido por
+# 👩‍💻 Desenvolvedora
 
 Alianny Rissato
+
+---
+
+# ✅ Conclusão
+
+Este projeto foi desenvolvido com o objetivo de praticar conceitos reais de desenvolvimento backend, análise de dados e observabilidade utilizando Python.
+
+Durante o desenvolvimento foram aplicados conhecimentos em:
+- manipulação de arquivos,
+- Regex,
+- visualização de dados,
+- dashboards interativos,
+- organização modular,
+- automação,
+- Git/GitHub,
+- e boas práticas de desenvolvimento.
+
+O projeto simula um cenário real de monitoramento de sistemas, permitindo identificar erros automaticamente e gerar relatórios para análise.
+
+Além de fortalecer conhecimentos técnicos, este projeto também contribuiu para evolução em resolução de problemas, organização de código e desenvolvimento de soluções mais próximas do mercado profissional.
