@@ -146,10 +146,6 @@ python main.py --save-db
 pytest
 ```
 
-## 💼 Como explicar em entrevista
-
-> Desenvolvi um analisador de logs em Python com estrutura modular, parsing com Regex, geração de relatórios, gráficos e dashboard interativo. O projeto também possui integração opcional com MySQL, exportação CSV e testes automatizados. A ideia foi simular uma solução de observabilidade e análise de eventos, útil para identificar erros, IPs recorrentes e padrões em logs de sistema.
-
 ## 🔥 Melhorias futuras
 
 - Login de usuários
