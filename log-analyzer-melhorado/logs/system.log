@@ -1,0 +1,6 @@
+2026-05-01 10:15:32 INFO User login successful IP=192.168.0.1
+2026-05-01 10:16:02 ERROR Database connection failed
+2026-05-01 10:17:45 WARNING CPU usage high
+2026-05-01 10:18:11 INFO User logout successful
+2026-05-01 10:19:01 ERROR Timeout error in service
+2026-05-01 11:00:00 ERROR API connection failed

@@ -1,0 +1,12 @@
+CREATE DATABASE IF NOT EXISTS logsystem;
+
+USE logsystem;
+
+CREATE TABLE IF NOT EXISTS logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    log_date DATETIME NOT NULL,
+    log_level VARCHAR(20) NOT NULL,
+    ip_address VARCHAR(50),
+    message TEXT NOT NULL,
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
