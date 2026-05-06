@@ -1,160 +1,258 @@
-# 📊 Log Analyzer
+# 📊 Log Analyzer Dashboard
 
-Projeto em Python para análise de logs de sistema, com geração de relatórios, gráficos, exportação CSV, dashboard em Streamlit e integração opcional com MySQL.
+Sistema de análise automatizada de logs desenvolvido em Python com dashboard interativo em Streamlit.
 
-## 🚀 Funcionalidades
+O projeto foi criado com foco em observabilidade, monitoramento e análise de eventos de sistemas, permitindo identificar erros e gerar relatórios automaticamente.
 
-- Leitura de arquivos `.log` e `.txt`
-- Parsing profissional com Regex
-- Contagem de logs por nível: `INFO`, `WARNING`, `ERROR`, `DEBUG`, `CRITICAL`
-- Extração e contagem de IPs
-- Identificação de erros
-- Geração de gráfico em PNG
-- Geração de relatório em TXT
-- Exportação dos logs analisados para CSV
-- Dashboard interativo com Streamlit
-- Inserção opcional no MySQL
-- Testes automatizados com Pytest
-- Estrutura modular de projeto
+---
 
-## 🛠️ Tecnologias
+# 🚀 Melhorias Implementadas
 
-- Python
-- Regex
-- Matplotlib
-- Pandas
-- Streamlit
-- MySQL
-- Pytest
-- Git/GitHub
+Este projeto passou por diversas melhorias para ficar mais profissional e próximo de sistemas reais utilizados em empresas.
 
-## 📁 Estrutura
+## ✅ Estrutura Profissional
+
+O projeto foi reorganizado em módulos:
 
 ```text
-log-analyzer-melhorado/
+app/
+logs/
+reports/
+charts/
+tests/
+```
+
+Isso melhora:
+
+* organização,
+* manutenção,
+* escalabilidade.
+
+---
+
+## ✅ Dashboard Web com Streamlit
+
+Antes o sistema funcionava apenas no terminal.
+
+Agora possui:
+
+* dashboard web,
+* gráficos,
+* estatísticas,
+* visual interativo.
+
+---
+
+## ✅ Parsing de Logs com Regex
+
+O sistema agora utiliza Regex para interpretar logs de forma mais robusta.
+
+Exemplo:
+
+```python
+re.match()
+```
+
+Isso permite identificar:
+
+* INFO
+* WARNING
+* ERROR
+
+---
+
+## ✅ Geração de Relatórios
+
+O projeto gera:
+
+* relatórios TXT,
+* exportação CSV,
+* análises automáticas.
+
+---
+
+## ✅ Gráficos Automáticos
+
+O sistema cria gráficos para visualizar:
+
+* erros,
+* warnings,
+* informações,
+* estatísticas gerais.
+
+---
+
+## ✅ Testes Automatizados
+
+Foi adicionada uma pasta:
+
+```text
+tests/
+```
+
+Utilizando:
+
+* Pytest
+
+---
+
+## ✅ Segurança e Organização
+
+Adicionado:
+
+* `.gitignore`
+* `.env.example`
+* separação modular
+* limpeza de arquivos desnecessários
+
+---
+
+# 🖥️ Dashboard
+
+![Dashboard](images/dashboard.png)
+
+---
+
+# 🛠️ Tecnologias Utilizadas
+
+* Python
+* Streamlit
+* Pandas
+* Matplotlib
+* Regex
+* Pytest
+* Git/GitHub
+
+---
+
+# 📂 Estrutura do Projeto
+
+```text
+log-analyzer/
 │
 ├── app/
-│   ├── __init__.py
 │   ├── analyzer.py
 │   ├── charts.py
-│   ├── config.py
-│   ├── database.py
-│   └── reports.py
+│   ├── reports.py
+│   └── utils.py
 │
-├── charts/
-├── database/
-│   └── schema.sql
 ├── logs/
-│   └── system.log
+├── charts/
 ├── reports/
 ├── tests/
-│   └── test_analyzer.py
+├── images/
 │
 ├── dashboard.py
 ├── main.py
 ├── requirements.txt
-├── .env.example
-├── .gitignore
 └── README.md
 ```
 
-## ⚙️ Como rodar o projeto
+---
 
-### 1. Entrar na pasta
+# ⚙️ Como Executar o Projeto
+
+## 1️⃣ Clonar o repositório
 
 ```bash
-cd log-analyzer-melhorado
+git clone https://github.com/SEUUSUARIO/log-analyzer-dashboard.git
 ```
 
-### 2. Criar ambiente virtual
+---
 
-No Windows:
+## 2️⃣ Entrar na pasta
+
+```bash
+cd log-analyzer-dashboard
+```
+
+---
+
+## 3️⃣ Criar ambiente virtual
 
 ```bash
 python -m venv venv
+```
+
+Ativar ambiente:
+
+```bash
 venv\Scripts\activate
 ```
 
-No Linux/Mac:
+---
 
-```bash
-python -m venv venv
-source venv/bin/activate
-```
-
-### 3. Instalar dependências
+## 4️⃣ Instalar dependências
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Rodar análise pelo terminal
+---
+
+# ▶️ Executar Projeto
+
+## Terminal
 
 ```bash
 python main.py
 ```
 
-Depois disso, serão gerados:
+---
 
-```text
-reports/report.txt
-reports/logs_analisados.csv
-charts/logs_por_nivel.png
-```
-
-### 5. Rodar dashboard
+## Dashboard Web
 
 ```bash
 streamlit run dashboard.py
 ```
 
-## 🗄️ Como usar com MySQL
+---
 
-### 1. Criar o banco
-
-Abra o MySQL Workbench e execute o arquivo:
+# 📄 Exemplo de Log
 
 ```text
-database/schema.sql
+2026-05-06 10:00:00 INFO Sistema iniciado
+2026-05-06 10:01:15 WARNING CPU acima de 80%
+2026-05-06 10:02:33 ERROR Falha ao conectar no banco
 ```
 
-Ou copie o conteúdo dele e rode no MySQL.
+---
 
-### 2. Criar o arquivo `.env`
+# 🎯 Objetivo do Projeto
 
-Copie o arquivo `.env.example` e renomeie para `.env`.
+Automatizar a análise de logs para facilitar identificação de erros, monitoramento de eventos e geração de estatísticas.
 
-Exemplo:
+---
 
-```env
-DB_HOST=localhost
-DB_USER=root
-DB_PASSWORD=sua_senha
-DB_NAME=logsystem
-LOG_FILE=logs/system.log
-```
+# 💼 Competências Demonstradas
 
-### 3. Rodar salvando no banco
+Este projeto demonstra conhecimentos em:
 
-```bash
-python main.py --save-db
-```
+* Python
+* Regex
+* Estruturação de projetos
+* Streamlit
+* Visualização de dados
+* Automação
+* Git/GitHub
+* Manipulação de arquivos
+* Dashboards interativos
+* Testes automatizados
 
-## 🧪 Rodar testes
+---
 
-```bash
-pytest
-```
+# 🚀 Melhorias Futuras
 
-## 💼 Como explicar em entrevista
+* Upload múltiplo de logs
+* API REST com FastAPI
+* Docker
+* PostgreSQL
+* Dashboard em tempo real
+* Login de usuários
+* Deploy em nuvem
 
-> Desenvolvi um analisador de logs em Python com estrutura modular, parsing com Regex, geração de relatórios, gráficos e dashboard interativo. O projeto também possui integração opcional com MySQL, exportação CSV e testes automatizados. A ideia foi simular uma solução de observabilidade e análise de eventos, útil para identificar erros, IPs recorrentes e padrões em logs de sistema.
+---
 
-## 🔥 Melhorias futuras
+# 👩‍💻 Desenvolvido por
 
-- Login de usuários
-- API REST com FastAPI
-- Upload de vários arquivos ao mesmo tempo
-- Filtros por intervalo de data
-- Deploy do dashboard
-- Docker
+Alianny Rissato
