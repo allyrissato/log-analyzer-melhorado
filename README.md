@@ -109,7 +109,8 @@ Adicionado:
 
 # 🖥️ Dashboard
 
-![Dashboard](images/dashboard.png)
+![Dashboard](log-analyzer-melhorado/images/dashboard.png)
+
 
 ---
 
@@ -200,7 +201,9 @@ python main.py
 
 ---
 
-## Dashboard Web
+
+---
+
 
 ```bash
 streamlit run dashboard.py
