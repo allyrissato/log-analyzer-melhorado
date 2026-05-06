@@ -111,6 +111,10 @@ Adicionado:
 
 ![Dashboard](images/dashboard.png)
 
+## Estrutura do Projeto
+
+![Estrutura](images/estrutura-projeto.png)
+
 ---
 
 # 🛠️ Tecnologias Utilizadas
