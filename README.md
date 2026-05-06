@@ -1,4 +1,4 @@
-# 📊 Log Analyzer Dashboard
+# 📊 Log Analyzer
 
 Sistema de análise automatizada de logs desenvolvido em Python com dashboard interativo em Streamlit.
 
@@ -110,10 +110,6 @@ Adicionado:
 # 🖥️ Dashboard
 
 ![Dashboard](images/dashboard.png)
-
-## Estrutura do Projeto
-
-![Estrutura](images/estrutura-projeto.png)
 
 ---
 
@@ -247,7 +243,6 @@ Este projeto demonstra conhecimentos em:
 
 # 🚀 Melhorias Futuras
 
-<<<<<<< HEAD
 * Upload múltiplo de logs
 * API REST com FastAPI
 * Docker
@@ -259,8 +254,5 @@ Este projeto demonstra conhecimentos em:
 ---
 
 # 👩‍💻 Desenvolvido por
-=======
-## 🔥 Melhorias futuras
->>>>>>> 5d9c4d9b4daba54dc78d6062227a93eafdaf9e79
 
 Alianny Rissato
