@@ -111,9 +111,11 @@ Adicionado:
 
 ![Dashboard](images/dashboard.png)
 
-## Estrutura do Projeto
+---
 
-![Estrutura](images/estrutura-projeto.png)
+# 🏗️ Estrutura do Projeto
+
+![Estrutura](images/estrutura.png)
 
 ---
 
