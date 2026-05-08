@@ -262,7 +262,7 @@ Este projeto demonstra conhecimentos em:
 
 # 👩‍💻 Desenvolvedora
 
-Alianny Rissato
+- Alianny Rissato
 
 ---
 
